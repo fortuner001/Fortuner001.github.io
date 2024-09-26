@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Caveat", cursive;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 10px 20px;
+    width: 84%;
+    float: right;
+}
+
+.li {
+    padding: 15px;
+}
+
+header nav ul a {
+    color: #000;
+}
+
+body {
+    background-image: url("/Projecto_Uno/Images/muzhik.png");
+    background-size: 100%;
+}
+
+.wrap {
+    background: linear-gradient(0deg, rgba(46,46,46,1) 35%, rgba(20,154,81,0.0005252100840336116) 100%);
+}
+
+.cybertext {
+    width: 55%;
+    padding: 300px 180px;
+    line-height: 30px;
+}
+
+header nav ul li {
+    padding: 30px 40px;
+}
+
+header nav ul li a {
+    padding: 15px 60px;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 5px #e0e0e0, 0 0 5px #e0e0e0;
+}
+
+header nav li:not(.active):not(.btn) a:hover {
+    transition: all 300ms ease;
+    box-shadow: 0 0 5px #e0e0e0, 0 0 20px #e0e0e0, 0 0 50px #e0e0e0, 0 0 100px #e0e0e0, 0 0 200px #e0e0e0;
+}
+
+.kamen {
+    shape-outside: url(/Projecto_Uno/Images/KAMEN.png);
+    float: left;
+    left: -20px;
+    margin: 7px 15px 15px 7px;
+    position: relative;
+}
+
+.obtek {
+    padding: 30px 45px;
+    border: 10px ridge #e0e0e0;
+    top: -100px;
+    left: -50px;
+    position: relative;
+}
+
