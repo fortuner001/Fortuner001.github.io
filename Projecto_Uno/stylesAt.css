@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Handjet:wght@100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Handjet", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 10px 20px;
+    width: 84%;
+    float: right;
+}
+
+.li {
+    padding: 15px;
+}
+
+header nav ul a {
+    color: #000;
+}
+
+body {
+    background-image: url("/Projecto_Uno/Images/AtompunkBG.png");
+    background-size: 100%;
+}
+
+.wrap {
+    background: linear-gradient(0deg, rgba(0,36,1,1) 39%, rgba(0,212,255,0) 100%);
+}
+
+.cybertext {
+    width: 30%;
+    padding: 180px;
+    line-height: 30px;
+}
+
+header nav ul li {
+    padding: 30px 40px;
+}
+
+header nav ul li a {
+    padding: 15px 60px;
+    background-color: greenyellow;
+    box-shadow: 0 0 5px greenyellow, 0 0 5px greenyellow;
+}
+
+header nav li:not(.active):not(.btn) a:hover {
+    transition: all 300ms ease;
+    box-shadow: 0 0 5px greenyellow, 0 0 20px greenyellow, 0 0 50px greenyellow, 0 0 100px greenyellow, 0 0 200px greenyellow;
+}
