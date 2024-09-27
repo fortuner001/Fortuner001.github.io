@@ -64,3 +64,15 @@ header nav li:not(.active):not(.btn) a:hover {
     transition: all 300ms ease;
     box-shadow: 0 0 5px greenyellow, 0 0 20px greenyellow, 0 0 50px greenyellow, 0 0 100px greenyellow, 0 0 200px greenyellow;
 }
+
+.btn31 {
+    padding: 15px 60px;
+    background-color: greenyellow;
+    box-shadow: 0 0 5px greenyellow, 0 0 5px greenyellow;
+    border: 0;   
+}
+
+.btn31:hover {
+    transition: all 300ms ease;
+    box-shadow: 0 0 5px greenyellow, 0 0 20px greenyellow, 0 0 50px greenyellow, 0 0 100px greenyellow, 0 0 200px greenyellow;
+}
