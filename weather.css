@@ -1,0 +1,54 @@
+
+      html {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+        background-color: #222;
+        color: #f9f9f9;
+      }
+
+      .current {
+        margin: 20px;
+        padding: 20px;
+        background-color: #333;
+        border-radius: 8px;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+        width: 500px;
+      }
+
+      .current h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #f1f1f1;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      td {
+        padding: 10px;
+        border: 1px solid #000;
+      }
+
+      td:first-child {
+        font-weight: bold;
+        text-align: left;
+        background-color: #444;
+        width: 50%;
+      }
+
+      td:last-child {
+        text-align: right;
+      }
+
+      /* Дополнительные стили для улучшения визуального восприятия */
+      table tr:nth-child(even) {
+        background-color: #444;
+      }
+
+      table tr:hover {
+        background-color: #333;
+      }
